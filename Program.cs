@@ -13,16 +13,16 @@
             displayWord = "";
             incorrect = 0;
             List<string> lettersGuessed = new List<string>();
-            List<string> easyWordList = new List<string>() { "EASY" };
-            List<string> medWordList = new List<string>() { "MEDIUM" };
-            List<string> hardWordList = new List<string>() { "COMPUTER", "PANCAKES", "SMILE", "ENTERTAINMENT", "AVATAR", "GAMING" };
+            List<string> easyWordList = new List<string>() { "EASY", "SMILE", "AISLE", "THANK", "ABODE" };
+            List<string> medWordList = new List<string>() { "MEDIUM", "COMPUTER", "PANCAKES", "AVATAR", "GAMING" };
+            List<string> hardWordList = new List<string>() { "ENTERTAINMENT", "AARDVARKS", "FABRICATED", "SUPERCALIFRAGILISTICEXPIALIDOCIOUS", "HIPPOPOTOMONSTROSESQUIPPEDALIOPHOBIA" };
             Random generator = new Random();
 
             Console.WriteLine("I want to play a game.");
             Console.WriteLine("A game of hangman to be exact!");
             Console.WriteLine();
             Console.WriteLine($"You know the rules: There is a secret word, and you must guess one letter at a time to figure it out");
-            Console.WriteLine("Unlike normal hangman, you only get three wrong guesses before you lose. Let's begin!");
+            Console.WriteLine("You get five wrong guesses before you lose. Let's begin!");
             Console.WriteLine();
 
             while (!done)
@@ -184,7 +184,6 @@
                 }
             }
         }
-
         public static void NoIncorrect()
         {
             Console.WriteLine("  +---+");
