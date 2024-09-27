@@ -89,10 +89,7 @@
                     {
                         FourIncorrect();
                     }
-                    else if (incorrect == 5)
-                    {
-                        FiveIncorrect();
-                    }
+                    
 
                     Console.WriteLine($"Current known letters: {displayWord}");
                     Console.WriteLine();
@@ -156,9 +153,9 @@
                 {
                     Console.WriteLine($"Congratulations, you found the word. It was {word}!");
                 }
-                else if (incorrect == 3)
+                else if (incorrect == 5)
                 {
-                    ThreeIncorrect();
+                    FiveIncorrect();
                     Console.WriteLine($"Too bad, you weren't able to find the word. The word this time around was {word}");
                 }
 
