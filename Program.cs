@@ -164,7 +164,7 @@
 
                 while (response != "y" && response != "n")
                 {
-                    Console.WriteLine("That's not a valid response. Yes or No please.");
+                    Console.WriteLine("That's not a valid response. y or n please.");
                     response = Console.ReadLine().ToLower().Trim();
                 }
 
