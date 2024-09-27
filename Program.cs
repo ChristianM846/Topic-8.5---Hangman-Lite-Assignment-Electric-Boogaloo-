@@ -13,9 +13,9 @@
             displayWord = "";
             incorrect = 0;
             List<string> lettersGuessed = new List<string>();
-            List<string> easyWordList = new List<string>() { "EASY", "SMILE", "AISLE", "THANK", "ABODE" };
-            List<string> medWordList = new List<string>() { "MEDIUM", "COMPUTER", "PANCAKES", "AVATAR", "GAMING" };
-            List<string> hardWordList = new List<string>() { "ENTERTAINMENT", "AARDVARKS", "FABRICATED", "SUPERCALIFRAGILISTICEXPIALIDOCIOUS", "HIPPOPOTOMONSTROSESQUIPPEDALIOPHOBIA" };
+            List<string> easyWordList = new List<string>() { "EASY", "SMILE", "AISLE", "THANK", "ABODE", "YES", "HUE", "DOG", "CAT", "FISH", "FORCE"};
+            List<string> medWordList = new List<string>() { "MEDIUM", "COMPUTER", "PANCAKES", "AVATAR", "GAMING", "ICEBERG", "MANSION", "PRESSURE", "YOURSELF", "DESKTOP",  };
+            List<string> hardWordList = new List<string>() { "ENTERTAINMENT", "AARDVARKS", "FABRICATED", "SUPERCALIFRAGILISTICEXPIALIDOCIOUS", "HIPPOPOTOMONSTROSESQUIPPEDALIOPHOBIA", "HUMUHUMUNUKUNUKUAPUAA", "BEFUDDLED" };
             Random generator = new Random();
 
             Console.WriteLine("I want to play a game.");
